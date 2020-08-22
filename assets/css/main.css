@@ -41,8 +41,10 @@ mark {
 	display: inline-block;
 	line-height: 0em;
 	padding-bottom: 0.25em;
-	color: #787878;
-	background-color: white;
+	font-weight: 400;
+	color: #ffffff;
+	background-color: #787878;
+	opacity: 0.5;
 }
 
 blockquote, q {
