@@ -40,8 +40,9 @@ ol, ul {
 mark {
 	display: inline-block;
 	line-height: 0em;
-	padding-bottom: 0.5em;
-	background-color: yellow;
+	padding-bottom: 0.25em;
+	color: #787878;
+	background-color: white;
 }
 
 blockquote, q {
