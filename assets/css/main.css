@@ -62,11 +62,6 @@ body {
 	-webkit-text-size-adjust: none;
 }
 
-mark {
-	background-color: transparent;
-	color: inherit;
-}
-
 input::-moz-focus-inner {
 	border: 0;
 	padding: 0;
