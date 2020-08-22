@@ -56,8 +56,9 @@ body {
 }
 
 mark {
-	background-color: transparent;
-	color: inherit;
+	display: inline-block;
+	line-height: 0em;
+	padding-bottom: 0.5em;
 }
 
 input::-moz-focus-inner {
