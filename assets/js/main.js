@@ -113,14 +113,18 @@
 				});
 
 			});
+$( "#toggleone" ).click(function(event) {
+	event.preventDefault();
+	$("#toggleone").text(($("#toggleone").text() == 'See more') ? 'See less' : 'See more').fadeIn();     
+	if (($('#collapsed').is(':visible'))) {
+		$('#collapsed').css('display','none');
+	} else {
+		$('#collapsed').css('display','flex');
+	}
+		
+});
+	
 
 })(jQuery);
 
-function hideunhide() {
-	var x = document.getElementById("collapsed");
-	if (x.style.display === "none") {
-	  x.style.display = "inline";
-	} else {
-	  x.style.display = "none";
-	}
-  }
+
