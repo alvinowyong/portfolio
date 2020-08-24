@@ -3316,7 +3316,7 @@ input, select, textarea {
 
 
 
-@-moz-keyframes adobesuites {
+/* @-moz-keyframes adobesuites {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
@@ -3365,4 +3365,4 @@ input, select, textarea {
 @-webkit-keyframes python {
   0%   { width: 0px;  }
   100% { width: 50%;  }
-}
+} */
