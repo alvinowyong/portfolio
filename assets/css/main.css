@@ -3231,3 +3231,138 @@ input, select, textarea {
 #collapsed {
 	display: none;
 }
+
+/* Skill Bars */
+#four p {
+	margin: 0 0 1em 0;
+}
+
+.bars {
+	width: 95%;
+	float: unset;
+	padding-top: .5em;
+	text-align: left;
+}
+.bars .skills {
+  	margin-top: 36px;
+   list-style: none;
+}
+
+.bars ul {
+	padding-left: 0;
+}
+
+.bars ul li {
+	padding-left: 0;
+}
+
+.bars li {
+   position: relative;
+  	margin-bottom: 40px;
+  	background: #ccc;
+  	height: 30px;
+  	border-radius: 3px;
+}
+.bars li em {
+	font-weight: normal;
+   position: relative;
+	top: -29px;
+	font-style: normal;
+}
+.bar-expand {
+   position: absolute;
+   left: 0;
+   top: 0;
+
+   margin: 0;
+   padding-right: 24px;
+  	background: #a2a2a2;
+   display: inline-block;
+  	height: 30px;
+   line-height: 42px;
+   border-radius: 3px 0 0 3px;
+}
+
+.adobesuites {
+  	width: 90%;
+  	-moz-animation: adobesuites 2s ease;
+  	-webkit-animation: adobesuites 2s ease;
+}
+.webdev {
+  	width: 75%;
+  	-moz-animation: webdev 2s ease;
+  	-webkit-animation: webdev 2s ease;
+}
+.rspi {
+	width: 80%;
+	-moz-animation: rspi 2s ease;
+	-webkit-animation: rspi 2s ease;
+}
+.vba {
+	width: 70%;
+	-moz-animation: vba 2s ease;
+	-webkit-animation: vba 2s ease;
+}
+.flutter {
+  	width: 65%;
+  	-moz-animation: flutter 2s ease;
+  	-webkit-animation: flutter 2s ease;
+}
+.python {
+  	width: 50%;
+  	-moz-animation: python 2s ease;
+  	-webkit-animation: python 2s ease;
+}
+
+
+
+@-moz-keyframes adobesuites {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+@-moz-keyframes webdev {
+  0%   { width: 0px;  }
+  100% { width: 75%;  }
+}
+@-moz-keyframes rspi {
+	0%   { width: 0px;  }
+	100% { width: 80%;  }
+}
+@-moz-keyframes vba {
+	0%   { width: 0px;  }
+	100% { width: 70%;  }
+}
+@-moz-keyframes flutter {
+  0%   { width: 0px;  }
+  100% { width: 65%;  }
+}
+@-moz-keyframes python {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+
+
+@-webkit-keyframes adobesuites {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+@-webkit-keyframes webdev {
+  0%   { width: 0px;  }
+  100% { width: 75%;  }
+}
+@-webkit-keyframes rspi {
+	0%   { width: 0px;  }
+	100% { width: 80%;  }
+}
+@-webkit-keyframes vba {
+	0%   { width: 0px;  }
+	100% { width: 70%;  }
+}
+@-webkit-keyframes flutter {
+  0%   { width: 0px;  }
+  100% { width: 65%;  }
+}
+@-webkit-keyframes python {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
