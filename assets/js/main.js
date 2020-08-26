@@ -114,7 +114,7 @@
 
 			});
 $( "#toggleone" ).click(function(event) {
-	event.preventDefault();
+	// event.preventDefault();
 	$("#toggleone").text(($("#toggleone").text() == 'See more') ? 'See less' : 'See more').fadeIn();     
 	if (($('#collapsed').is(':visible'))) {
 		$('#collapsed').css('display','none');
