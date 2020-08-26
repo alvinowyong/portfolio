@@ -294,6 +294,8 @@ input, select, textarea {
 
 		}
 
+/* Column */
+
 /* Row */
 
 	.row {
@@ -3266,7 +3268,7 @@ input, select, textarea {
 .bars li em {
 	font-weight: normal;
    position: relative;
-	top: -29px;
+	top: -31px;
 	font-style: normal;
 }
 .bar-expand {
@@ -3366,3 +3368,7 @@ input, select, textarea {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 } */
+
+article:empty {
+	display: none;
+}
