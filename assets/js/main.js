@@ -98,7 +98,7 @@
 		// Lightbox gallery.
 			$window.on('load', function() {
 
-				$('#two').poptrox({
+				$('#six').poptrox({
 					caption: function($a) { return $a.next('h3').text(); },
 					overlayColor: '#2c2c2c',
 					overlayOpacity: 0.85,
@@ -112,7 +112,22 @@
 					windowMargin: (breakpoints.active('<=small') ? 0 : 50)
 				});
 
+				$('#five').poptrox({
+					caption: { selector: 'img', attribute: 'alt' },
+					overlayColor: '#2c2c2c',
+					overlayOpacity: 0.85,
+					popupCloserText: '',
+					popupLoaderText: '',
+					selector: '.work-item a.image',
+					usePopupCaption: true,
+					usePopupDefaultStyling: false,
+					usePopupEasyClose: false,
+					usePopupNav: true,
+					windowMargin: (breakpoints.active('<=small') ? 0 : 50)
+				});
+
 			});
+
 $( "#toggleone" ).click(function(event) {
 	// event.preventDefault();
 	$("#toggleone").text(($("#toggleone").text() == 'See more') ? 'See less' : 'See more').fadeIn();     
@@ -126,5 +141,3 @@ $( "#toggleone" ).click(function(event) {
 	
 
 })(jQuery);
-
-

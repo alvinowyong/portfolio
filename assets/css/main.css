@@ -3287,33 +3287,45 @@ input, select, textarea {
 
 .adobesuites {
   	width: 90%;
-  	-moz-animation: adobesuites 2s ease;
-  	-webkit-animation: adobesuites 2s ease;
+  	/* -moz-animation: adobesuites 2s ease;
+  	-webkit-animation: adobesuites 2s ease; */
+}
+
+.adobexd {
+	width: 85%;
+	/* -moz-animation: adobesuites 2s ease;
+	-webkit-animation: adobesuites 2s ease; */
+}
+
+.resolve {
+	width: 80%;
+	/* -moz-animation: adobesuites 2s ease;
+	-webkit-animation: adobesuites 2s ease; */
 }
 .webdev {
   	width: 75%;
-  	-moz-animation: webdev 2s ease;
-  	-webkit-animation: webdev 2s ease;
+  	/* -moz-animation: webdev 2s ease;
+  	-webkit-animation: webdev 2s ease; */
 }
 .rspi {
-	width: 80%;
-	-moz-animation: rspi 2s ease;
-	-webkit-animation: rspi 2s ease;
+	width: 70%;
+	/* -moz-animation: rspi 2s ease;
+	-webkit-animation: rspi 2s ease; */
 }
 .vba {
 	width: 70%;
-	-moz-animation: vba 2s ease;
-	-webkit-animation: vba 2s ease;
+	/* -moz-animation: vba 2s ease;
+	-webkit-animation: vba 2s ease; */
 }
 .flutter {
   	width: 65%;
-  	-moz-animation: flutter 2s ease;
-  	-webkit-animation: flutter 2s ease;
+  	/* -moz-animation: flutter 2s ease;
+  	-webkit-animation: flutter 2s ease; */
 }
 .python {
   	width: 50%;
-  	-moz-animation: python 2s ease;
-  	-webkit-animation: python 2s ease;
+  	/* -moz-animation: python 2s ease;
+  	-webkit-animation: python 2s ease; */
 }
 
 
@@ -3371,4 +3383,24 @@ input, select, textarea {
 
 article:empty {
 	display: none;
+}
+
+#project-title {
+	color: rgb(50, 50, 50);
+	font-size: 19px;
+	font-weight: 700;
+	margin-top: 1em;
+	margin-block-end: 0em;
+	margin-block-start: 2.75em;
+}
+
+#project-subtitle {
+	margin: 0em;
+	margin-block-end: 1em;
+	margin-block-start: 0em;
+}
+
+#project-image {
+	padding: 0em;
+	margin-bottom: 0em;
 }
